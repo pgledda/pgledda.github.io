@@ -1,0 +1,29 @@
+/* Resetting default margin and padding */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Centering content */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Styling heading */
+h1 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Styling paragraph */
+p {
+  font-size: 1.2em;
+  color: #555;
+}
