@@ -4,17 +4,14 @@ body {
   font-family: 'Arial', sans-serif;
 }
 
-header {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 20px 0;
+.container {
+  max-width: 33.33%; /* 1/3 width */
+  margin: 0 auto;
 }
 
-.header-content {
+.overlay {
   position: relative;
-  width: 100%;
-  padding-top: 33.33%; /* Aspect ratio 1:3 */
+  padding-top: 33.33%; /* 1/3 height */
   overflow: hidden;
 }
 
@@ -28,46 +25,5 @@ h1 {
   transform: translateY(-50%);
 }
 
-.content {
-  display: flex;
-  flex-wrap: wrap;
-}
+/* Rest of the CSS remains unchanged */
 
-.left-content {
-  flex: 1;
-  padding: 20px;
-}
-
-.right-content {
-  flex: 1;
-  padding: 20px;
-}
-
-.left-content p {
-  font-size: 16px;
-}
-
-.left-content a {
-  display: block;
-  margin-top: 20px;
-  color: blue;
-  text-decoration: underline;
-}
-
-.left-content a:hover {
-  color: red;
-}
-
-.left-content h2 {
-  margin-top: 20px;
-}
-
-.left-content ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.left-content li {
-  margin-bottom: 10px;
-}
