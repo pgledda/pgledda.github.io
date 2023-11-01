@@ -1,0 +1,71 @@
+/*header style*/
+header {
+      background-image: url('vortex_shedding.svg');
+      background-size: cover;
+      background-position: center;
+      height: 200px; /* Altezza dell'header */
+      color: white; /* Colore del testo */
+      text-align: right;
+      padding: 100px 0; /* Spazio interno all'header */
+  }
+
+  /* Stile per la scritta al centro */
+  .header-text {
+      font-size: 36px;
+      font-weight: bold;
+      padding-right: 65px;
+
+  }
+ /*navigation menu style*/
+ nav {
+    text-align: center;
+    Padding: 10px;
+    margin-top: 126px;
+ }
+
+ /*creating the two-column layout*/
+.container {
+   display: grid;
+   grid-template-columns: 1fr 2fr 1fr;
+   grid-template-rows: auto;
+   grid-template-areas: 
+     "header header header header"
+     "main main . sidebar"
+     "footer footer footer footer";
+   justify-content: start;
+   padding: 100px;
+ }
+ 
+ .bio {
+   flex: 1;
+   text-align: left;
+   padding-right: 100px;
+   display: flex;
+   flex-direction: column; /* Imposta la direzione del flex container a colonna */
+   justify-content: space-between; /* Allinea gli elementi lungo l'asse principale in modo uniforme */
+   align-items: center; /* Allinea gli elementi centralmente lungo l'asse trasversale */
+   min-height: 100vh; /* Assicura che il contenitore occupi almeno l'intera altezza della viewport */
+ }
+
+ .profile {
+   flex: 1;
+   padding-left: 100px;
+
+}
+
+ /*navigation bar style*/
+nav {
+    text-align: center;
+    word-spacing: 30px;
+    padding: 10px;
+    border-style: solid;
+    background-color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    
+ }
+ /*navigation bar button style*/
+ nav a {
+    color: #000000;
+    text-decoration: none;
+    font-size: larger;
+ } 
