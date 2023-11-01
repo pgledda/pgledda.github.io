@@ -115,8 +115,8 @@ ul.languages{
         "footer footer";
     justify-content: center;
     grid-column-gap: 10px; /* Imposta la spaziatura tra le colonne (puoi personalizzare il valore) */
-    padding-left: 180px;
-    padding-right: 180px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
