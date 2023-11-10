@@ -2,19 +2,19 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.0"
    width="895"
    height="600"
    id="svg2413"
-   inkscape:version="0.48.1 "
-   sodipodi:docname="Flag_of_the_Italian_region_Sardinia.svg">
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="Flag_of_Sardinia.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata61">
     <rdf:RDF>
@@ -35,17 +35,20 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1280"
-     inkscape:window-height="738"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
      id="namedview59"
      showgrid="false"
-     inkscape:zoom="0.68199737"
-     inkscape:cx="746.80436"
-     inkscape:cy="380.5"
+     inkscape:zoom="0.34099869"
+     inkscape:cx="712.61272"
+     inkscape:cy="774.19653"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg2413" />
+     inkscape:current-layer="svg2413"
+     inkscape:showpageshadow="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
   <defs
      id="defs2415" />
   <g
@@ -60,7 +63,7 @@
     <path
        d="m 418.01854,-5e-7 0,270.05312049999997 -418.01853787,0 0,59.89375 418.01853787,0 0,270.05313 58.96292,0 0,-270.05313 418.01854,0 0,-59.89375 -418.01854,0 0,-270.05312050000003 -58.96292,0 z"
        id="rect3322"
-       style="fill:#d81921;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="fill:#d80000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        inkscape:connector-curvature="0" />
     <g
        transform="matrix(0.75581266,0,0,0.75581266,127.95495,-67.307339)"
