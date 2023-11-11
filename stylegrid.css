@@ -262,6 +262,7 @@ a:active {
 #didascalia{
    text-align: center;
    margin-top: 0;
+   margin-bottom: 10px;
    font-style: italic;
    color: #546a7bff;
 }
