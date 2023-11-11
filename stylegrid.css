@@ -23,6 +23,10 @@ header {
    padding-right: 150px;
 }
 
+h3{
+   margin-top: -20px;
+}
+
 .link_header{
    font-weight: bold;
 }
