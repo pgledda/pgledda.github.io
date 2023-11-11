@@ -207,7 +207,7 @@ img {
 
 li {
    
-   padding-bottom: 10px;
+   padding-bottom: 30px;
    align-items: left;
 
 }
@@ -253,7 +253,7 @@ a:active {
 .container-research {
    display: grid;
    grid-template-columns: 1fr;
-   grid-row-gap: 40px;
+   grid-row-gap: 20px;
    justify-content: center;
 }
 
