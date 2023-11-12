@@ -186,7 +186,8 @@ ul.languages{
    align-items: right;
    flex-direction: column;
    margin-top: 200px;
-   padding-right: 10px;
+   padding-left: 50px;
+   
 }
 
 .conferences-column{
