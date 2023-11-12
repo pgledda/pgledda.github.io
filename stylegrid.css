@@ -5,13 +5,15 @@ body {
 }
 
 header {
-   background-image: url('vortex_shedding.svg');
+   background-image: url('vortex_shedding.png');
    background-size: cover;
    background-position: center;
    height: 200px; /* Altezza dell'header */
    color: white; /* Colore del testo */
    text-align: right;
    padding: 50px 0; /* Spazio interno all'header */
+   margin-left: -19px;
+   margin-right: -10px;
    
 }
 
