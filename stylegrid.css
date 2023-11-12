@@ -96,7 +96,6 @@ span{
 
 .profile-container {
    grid-area: profile-container;
- 
    text-align: right;
    display: grid;
    grid-template-rows: auto 1fr; /* Allinea l'immagine in alto */
@@ -187,6 +186,7 @@ ul.languages{
    align-items: right;
    flex-direction: column;
    margin-top: 200px;
+   padding-right: 10px;
 }
 
 .conferences-column{
