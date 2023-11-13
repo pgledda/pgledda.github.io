@@ -190,6 +190,15 @@ ul.languages{
    
 }
 
+.image2-column {
+   display: flex;
+   align-items: right;
+   flex-direction: column;
+   margin-top: 50px;
+   padding-left: 50px;
+   
+}
+
 .conferences-column{
    font-family: Arial, Helvetica, sans-serif;
    font-size: 16px;
