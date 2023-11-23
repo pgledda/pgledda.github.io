@@ -286,7 +286,9 @@ a:active {
 #text{
    text-align: left; /* or justified */ 
    font-family: Arial, Helvetica, sans-serif;
-   color: #393d3fff;;
+   color: #393d3fff;
+   margin-right: 10px;
+   margin-left: 10px;
 }
 
 #img_research{
