@@ -292,3 +292,17 @@ a:active {
 #img_research{
     text-align: center; 
 }
+
+#collab{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+
+}
+.loga {
+   display: flex;
+   flex-direction: column;
+   align-items: right; /* Centra gli elementi orizzontalmente */
+   
+   padding-right: 200px;
+   padding-bottom:10px;
+}
