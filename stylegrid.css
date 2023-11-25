@@ -14,7 +14,11 @@ header {
    padding: 50px 0; /* Spazio interno all'header */
    margin-left: -19px;
    margin-right: -10px;
+
    
+}
+h3{
+   margin-top: -20px;
 }
 
 /* Stile per la scritta al centro */
@@ -25,12 +29,8 @@ header {
    padding-right: 150px;
 }
 
-h3{
-   margin-top: -20px;
-}
-
 .link_header{
-   font-weight: bold;
+   font-weight: lighter;
 }
 
 #link_header a {
@@ -82,7 +82,7 @@ ul.main_menu{
    display: flex;
    flex-direction: column;
    align-items: flex-start;
-   padding-right: 25px;
+   padding-right: 15px;
    
 }
 
@@ -91,18 +91,19 @@ ul.main_menu{
 }
 
 span{
-   color: #C70039;
+   font-weight: bolder;
 }
 
 .profile-container {
    grid-area: profile-container;
+ 
    text-align: right;
    display: grid;
    grid-template-rows: auto 1fr; /* Allinea l'immagine in alto */
    justify-items: center;
    font-family: Arial, Helvetica, sans-serif;
    font-size: 16px;
-   font-weight: normal;
+   font-weight: lighter;
    color: #393d3fff;
 
 }
@@ -176,7 +177,7 @@ ul.languages{
    display: flex;
    flex-direction: column;
    font-family: Arial, Helvetica, sans-serif;
-   font-size: 18px;
+   font-size: 16px;
    font-weight: normal;
    color: #393d3fff;
 }
@@ -186,26 +187,8 @@ ul.languages{
    align-items: right;
    flex-direction: column;
    margin-top: 200px;
-   padding-left: 50px;
-   
-}
 
-.image2-column {
-   display: flex;
-   align-items: right;
-   flex-direction: column;
-   margin-top: 50px;
-   padding-left: 50px;
-   
 }
-
-.conferences-column{
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 16px;
-   font-weight: normal;
-   color: #393d3fff;
-}
-
 
 
 img {
@@ -269,9 +252,28 @@ a:active {
    justify-content: center;
 }
 
+.griglia-ricerca {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 5px; /* Aggiungi spaziatura tra le colonne */
+
+}
+
+video {
+   width: 100%;
+   max-width: 100%;
+   max-height: 100%; /* Aggiunto per mantenere l'aspect ratio */
+   height: auto;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+}
+
+
 .content-research {
-   text-align: center;
-   padding: 10px;
+   text-align: center;  /*allineamento contenuti multimediali*/
    
 }
 
@@ -286,14 +288,12 @@ a:active {
 #text{
    text-align: left; /* or justified */ 
    font-family: Arial, Helvetica, sans-serif;
-   color: #393d3fff;
-   margin-right: 10px;
+   color: #393d3fff;;
+   padding: 10px;
    margin-left: 10px;
+   margin-right: 10px;
 }
 
-#img_research{
-    text-align: center; 
-}
 
 #collab{
    display: grid;
@@ -308,3 +308,5 @@ a:active {
    padding-right: 200px;
    padding-bottom:10px;
 }
+
+   
