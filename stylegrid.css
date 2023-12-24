@@ -14,8 +14,10 @@ header {
    padding: 50px 0; /* Spazio interno all'header */
    margin-left: -19px;
    margin-right: -10px;
-
    
+}
+header {
+   margin: -10px; /* Reset the margin to remove any default spacing */
 }
 h3{
    margin-top: -20px;
@@ -237,7 +239,7 @@ a:active {
 #wrapper{
    max-width: 960px;
    margin: 0 auto;
-   border: 1px solid #c6c5b9;
+   
    padding: 10px;
 }
 
@@ -285,6 +287,7 @@ figure {
    margin-top: 0;
    margin-bottom: 10px;
    font-style: italic;
+   font-size: 18px;
    color: #546a7bff;
 }
 
@@ -313,3 +316,15 @@ figure {
 }
 
    
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+   body {
+      font-size: 14px; /* Adjust font size for better readability on smaller screens */
+   }
+
+   .header-text {
+      text-align: center; /* Center header text on small screens */
+   }
+
+   /* Add more styles as needed for better mobile presentation */
+}
