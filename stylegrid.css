@@ -148,6 +148,7 @@ ul.social{
 ul.languages{
    padding-top: 10px;
    border-top: 1px solid #c6c5b9;
+   border-bottom: 1px solid #c6c5b9;
 }
 
 .container {
