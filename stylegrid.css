@@ -316,6 +316,11 @@ figure {
    padding-bottom:10px;
 }
 
+.inline {
+    display: inline-block; /* Ensures the image aligns inline with text */
+    vertical-align: middle; /* Aligns the image vertically with the text */
+}
+
    
 /* Responsive Styles */
 @media screen and (max-width: 600px) {
