@@ -104,9 +104,9 @@ span{
    display: grid;
    grid-template-rows: auto 1fr; /* Allinea l'immagine in alto */
    justify-items: center;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
    font-size: 16px;
-   font-weight: normal;
+   font-weight: light;
    color: #393d3fff;
 
 }
