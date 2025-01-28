@@ -67,7 +67,7 @@ ul.main_menu{
    text-decoration: none;
    color: #393D3F;
    padding: 8px;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
 }
 
 .main_menu a:hover {
