@@ -79,7 +79,7 @@ ul.main_menu{
    text-align: left;
    font-family: Georgia;
    font-size: 16px;
-   font-weight: normal;
+   font-weight: light;
    color: #393d3fff;
    display: flex;
    flex-direction: column;
