@@ -2,4 +2,4 @@
 
 Un semplice sito web creato con **HTML** e **CSS**.
 
-## Visualizza il sito: pgledda.github.io
+Visualizza il sito: pgledda.github.io
