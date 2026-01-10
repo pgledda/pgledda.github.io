@@ -74,6 +74,21 @@ ul.main_menu{
    color: #62929e;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+        "header header"
+        "nav nav"
+        "text-container profile-container"
+        "footer footer";
+    justify-content: center;
+    grid-column-gap: 20px; /* Imposta la spaziatura tra le colonne (puoi personalizzare il valore) */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .text-container {
    grid-area: text-container;
    text-align: left;
@@ -191,20 +206,6 @@ ul.languages{
    border-bottom: 1px solid #c6c5b9;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: auto 1fr;
-    grid-template-areas:
-        "header header"
-        "nav nav"
-        "text-container profile-container"
-        "footer footer";
-    justify-content: center;
-    grid-column-gap: 20px; /* Imposta la spaziatura tra le colonne (puoi personalizzare il valore) */
-    padding-left: 10px;
-    padding-right: 10px;
-}
 
 
 /*.publications{
