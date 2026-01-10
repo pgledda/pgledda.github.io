@@ -152,6 +152,41 @@ ul.languages{
    border-bottom: 1px solid #c6c5b9;
 }
 
+.latest-news {
+  margin-top: 40px;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.latest-news h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #1d2a3a;
+}
+
+.news-item {
+  padding: 12px 0;
+  border-bottom: 1px solid #c6c5b9;
+}
+
+.news-item:last-child {
+  border-bottom: none;
+}
+
+.news-date {
+  display: block;
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 600;
+  color: #546a7b;
+  margin-bottom: 4px;
+}
+
+.news-item p {
+  margin: 0;
+  line-height: 1.6;
+}
+
 .container {
     display: grid;
     grid-template-columns: 2fr 1fr;
