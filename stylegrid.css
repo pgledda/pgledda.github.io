@@ -117,6 +117,12 @@ ul.main_menu{
     overflow-y: auto;   /* Scroll verticale */
     margin-top: 30px;
 }
+
+/* Hover sul box per effetto "sollevato" */
+.latest-news-box:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    transform: translateY(-2px);
+   
 .latest-news-box h2 {
     font-family: 'Merriweather', serif;
     font-size: 26px;
