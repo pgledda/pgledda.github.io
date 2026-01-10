@@ -9,21 +9,20 @@ header {
    background-size: cover;
    background-position: center;
    height: 200px; /* Altezza dell'header */
-   color: white; /* Colore del testo */
+   color: white; 
    text-align: right;
-   padding: 50px 0; /* Spazio interno all'header */
+   padding: 50px 0;
    margin-left: -19px;
    margin-right: -10px;
-   
 }
 header {
-   margin: -10px; /* Reset the margin to remove any default spacing */
+   margin: -10px;
 }
+
 h3{
    margin-top: -20px;
 }
 
-/* Stile per la scritta al centro */
 .header-text {
    font-size: 30px;
    font-weight: lighter;
@@ -31,22 +30,16 @@ h3{
    padding-right: 150px;
 }
 
-.link_header{
-   font-weight: lighter;
-}
-
 #link_header a {
-   color: white; /* Colore del testo dei link */
-   text-decoration: none; /* Sottolineatura */
+   color: white;
+   text-decoration: none;
 }
-
 #link_header a:hover{
    color: whitesmoke;
 }
 
-
 .main_menu {
-   padding: 5px 0 5px 0;
+   padding: 5px 0;
    text-align: center;
    line-height: 32px;
    border-bottom: 1px solid #c6c5b9;
@@ -58,9 +51,9 @@ ul.main_menu{
 
 .main_menu li{
    display: inline;
-   padding: 0 22px 0 22px;
+   padding: 0 22px;
    font-size: 16px;
-   color: #393d3f
+   color: #393d3f;
 }
 
 .main_menu a {
@@ -79,33 +72,36 @@ ul.main_menu{
    text-align: left;
    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
    font-size: 16px;
-   font-weight: light;
    color: #393d3fff;
    display: flex;
    flex-direction: column;
    align-items: flex-start;
    padding-right: 15px;
-   
 }
 
 .bio{
    margin-top: -20px;
 }
 
-.latest-news {
-  margin-top: 40px;
-  font-family: 'Inter', Arial, sans-serif;
+/* Box Latest News */
+.latest-news-box {
+  border: 1px solid #c6c5b9;
+  background-color: #ffffff;
+  padding: 15px;
+  margin-top: 20px;
+  max-height: 400px;       /* altezza fissa del box */
+  overflow-y: auto;        /* scroll verticale solo dentro il box */
 }
 
-.latest-news h2 {
+.latest-news-box h2 {
   font-family: 'Merriweather', serif;
-  font-size: 26px;
-  margin-bottom: 20px;
+  font-size: 24px;
+  margin-bottom: 15px;
   color: #1d2a3a;
 }
 
 .news-item {
-  padding: 12px 0;
+  padding: 10px 0;
   border-bottom: 1px solid #c6c5b9;
 }
 
@@ -113,261 +109,4 @@ ul.main_menu{
   border-bottom: none;
 }
 
-.news-date {
-  display: block;
-  font-style: italic;
-  font-size: 14px;
-  font-weight: 600;
-  color: #546a7b;
-  margin-bottom: 4px;
-}
-
-.news-item p {
-  margin: 0;
-  line-height: 1.6;
-}
-
-span{
-   color: #333333;
-   font-weight: bold;
-}
-
-.profile-container {
-   grid-area: profile-container;
- 
-   text-align: right;
-   display: grid;
-   grid-template-rows: auto 1fr; /* Allinea l'immagine in alto */
-   justify-items: center;
-   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-   font-size: 16px;
-   font-weight: light;
-   color: #393d3fff;
-
-}
-
-p {
-   margin-bottom: 0.5em; /* Imposta il margine inferiore a 0.5em (50% dello spazio predefinito tra i paragrafi) */
-   line-height: 1.3;
-}
-
-.social {
-   display: flex;
-   align-items: flex-start; /* Allinea i social all'inizio della riga */
-   padding: 10px;
-   margin-left: -20px;
-}
-
-ul.social{
-   margin-top: 15px;
-   
-}
-
-.social li{
-   display: inline;
-   font-size: 16px;
-   padding-right: 22px;
-}
-
-
-.social a {
-   text-decoration: none;
-   color: #393D3F;
-   padding: 8px;
-   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-}
-
-.social a:hover {
-   color: #62929e;
-}
-
-ul.languages{
-   padding-top: 10px;
-   border-top: 1px solid #c6c5b9;
-   border-bottom: 1px solid #c6c5b9;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: auto 1fr;
-    grid-template-areas:
-        "header header"
-        "nav nav"
-        "text-container profile-container"
-        "footer footer";
-    justify-content: center;
-    grid-column-gap: 20px; /* Imposta la spaziatura tra le colonne (puoi personalizzare il valore) */
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-
-/*.publications{
-   display: grid;
-   text-align: left;
-   justify-content: right;
-   padding: 10px;
-   background-color: aqua;
-}
-*/
-
-.article-column {
-   display: flex;
-   flex-direction: column;
-   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-   font-size: 16px;
-   line-height: 1.6;
-   font-weight: normal;
-   color: #393d3fff;
-}
-
-.image-column {
-   display: flex;
-   align-items: right;
-   flex-direction: column;
-   margin-top: 200px;
-
-}
-
-
-img {
-
-   
-   height: auto;
-   margin-left: auto; /* Allinea l'immagine a destra */
-}
-
-
-
-li {
-   
-   padding-bottom: 10px;
-   align-items: left;
-
-}
-
-#msg {
-   border-bottom: 2px solid #c6c5b9ff;
-   color: #393d3fff;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-}
-
-
-/* Stile di base per i link non visitati */
-a {
-   color: #62929e; /* Colore del testo dei link */
-   text-decoration: none; /* Sottolineatura */
-}
-
-/* Stile dei link al passaggio del mouse (hover) */
-a:hover {
-   color: #62929e; /* Colore del testo dei link al passaggio del mouse */
-   text-decoration: none; /* Rimuovi la sottolineatura al passaggio del mouse */
-}
-
-
-/* Stile dei link attivi (quando il link è cliccato) */
-a:active {
-   color: #62929e; /* Colore del testo dei link attivi */
-   font-weight: bold; /* Testo in grassetto quando il link è cliccato */
-}
-
-#wrapper{
-   max-width: 960px;
-   margin: 0 auto;
-   
-   padding: 10px;
-}
-
-#myresearch{
-   text-align: center;
-   color: #393d3fff;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-   
-}
-
-.container-research {
-   display: grid;
-   grid-template-columns: 1fr;
-   grid-row-gap: 20px;
-   justify-content: center;
-}
-
-.griglia-ricerca {
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   grid-gap: 5px; /* Aggiungi spaziatura tra le colonne */
-
-}
-
-video {
-   width: 100%;
-   max-width: 100%;
-   max-height: 100%; /* Aggiunto per mantenere l'aspect ratio */
-   height: auto;
-}
-
-figure {
-    display: flex;
-    flex-direction: column;
-}
-
-
-.content-research {
-   text-align: center;  /*allineamento contenuti multimediali*/
-   
-}
-
-#didascalia{
-   text-align: center;
-   margin-top: 0;
-   margin-bottom: 10px;
-   font-style: italic;
-   font-size: 18px;
-   color: #546a7bff;
-   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-}
-
-#text{
-   text-align: left; /* or justified */ 
-   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-   color: #393d3fff;;
-   padding: 10px;
-   margin-left: 10px;
-   margin-right: 10px;
-}
-
-
-#collab{
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-
-}
-.loga {
-   display: flex;
-   flex-direction: column;
-   align-items: right; /* Centra gli elementi orizzontalmente */
-   
-   padding-right: 200px;
-   padding-bottom:10px;
-}
-
-.inline {
-    display: inline-block; /* Ensures the image aligns inline with text */
-    vertical-align: middle; /* Aligns the image vertically with the text */
-}
-
-   
-/* Responsive Styles */
-@media screen and (max-width: 600px) {
-   body {
-      font-size: 14px; /* Adjust font size for better readability on smaller screens */
-   }
-
-   .header-text {
-      text-align: center; /* Center header text on small screens */
-   }
-
-   /* Add more styles as needed for better mobile presentation */
-}
+.news-dat
