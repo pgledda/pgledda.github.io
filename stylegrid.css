@@ -76,7 +76,7 @@ h3{
 .header-text {
    font-size: 30px;
    font-weight: lighter;
-   font-family: Merriweather;
+   font-family: "Crimson Text", serif;
    padding-right: 150px;
 }
 
@@ -116,7 +116,7 @@ ul.main_menu{
    text-decoration: none;
    color: #393D3F;
    padding: 8px;
-   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   font-family: "Source Sans 3", sans-serif;
 }
 
 .main_menu a:hover {
@@ -242,7 +242,7 @@ ul.social{
    text-decoration: none;
    color: #393D3F;
    padding: 8px;
-   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   font-family: "Source Sans 3", sans-serif;
 }
 
 .social a:hover {
@@ -303,7 +303,7 @@ li {
 #msg {
    border-bottom: 2px solid #c6c5b9ff;
    color: #393d3fff;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Source Sans 3", sans-serif;
 }
 
 
