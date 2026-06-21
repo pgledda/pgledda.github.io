@@ -338,6 +338,18 @@ a:active {
    grid-gap: 5px;
 }
 
+
+.griglia-centrata {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   grid-gap: 5px;
+}
+
+
+
+
+
 video {
    width: 100%;
    max-width: 100%;
